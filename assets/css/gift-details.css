@@ -1,0 +1,9 @@
+/* Individual images keep their proportions; each detail section has its own view. */
+#gift-detail-page[hidden] { display: none !important; }
+.gift-supporting-image { display: block; width: 100%; height: auto; }
+#gift-detail-inclusions h3 { line-height: 1.6; overflow-wrap: break-word; }
+#gift-detail-inclusions .p-4 { padding: 1.25rem !important; }
+#gift-detail-inclusions i { flex-shrink: 0; }
+@media (max-width: 575.98px) {
+  #gift-detail-title { font-size: 1.9rem; }
+}

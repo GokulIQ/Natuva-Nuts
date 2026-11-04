@@ -1,0 +1,18 @@
+{
+  "store": {
+    "name": "Natuva Gourmet",
+    "tagline": "Artisanal Dry Fruits, Organic Nuts & Luxury Gifting",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "freeShippingThreshold": 50.00
+  },
+  "categories": [
+    { "id": "almonds", "name": "Almonds", "count": 12, "slug": "almonds" },
+    { "id": "cashews", "name": "Cashews", "count": 9, "slug": "cashews" },
+    { "id": "pistachios", "name": "Pistachios", "count": 8, "slug": "pistachios" },
+    { "id": "walnuts", "name": "Walnuts", "count": 6, "slug": "walnuts" },
+    { "id": "dates", "name": "Medjool & Exotic Dates", "count": 10, "slug": "dates" },
+    { "id": "raisins-berries", "name": "Raisins & Dried Berries", "count": 14, "slug": "raisins-berries" },
+    { "id": "mixes-snacks", "name": "Nutritious Mixes & Snacks", "count": 11, "slug": "mixes-snacks" }
+  ]
+}

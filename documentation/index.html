@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natuva Gourmet — HTML Template Documentation</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/images/brand/favicon.svg">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap-icons.min.css">
+  
+  <style>
+    :root {
+      --doc-primary: #183329;
+      --doc-accent: #C29B48;
+      --doc-pistachio: #5E8C6A;
+      --doc-cream: #FAF7F2;
+      --doc-text: #2D3748;
+      --doc-sidebar-w: 280px;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      color: var(--doc-text);
+      background-color: #F8F9FA;
+      line-height: 1.6;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 600;
+      color: var(--doc-primary);
+    }
+    .doc-sidebar {
+      width: var(--doc-sidebar-w);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background: var(--doc-primary);
+      color: #fff;
+      overflow-y: auto;
+      padding: 2rem 1.5rem;
+      z-index: 1000;
+    }
+    .doc-sidebar .nav-link {
+      color: rgba(255,255,255,0.7);
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      margin-bottom: 0.25rem;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s;
+    }
+    .doc-sidebar .nav-link:hover, .doc-sidebar .nav-link.active {
+      color: #fff;
+      background: rgba(255,255,255,0.1);
+    }
+    .doc-sidebar .nav-link.active {
+      background: var(--doc-accent);
+      color: #183329;
+      font-weight: 600;
+    }
+    .doc-content {
+      margin-left: var(--doc-sidebar-w);
+      padding: 3rem 4rem;
+      max-width: 1200px;
+    }
+    .doc-card {
+      background: #fff;
+      border-radius: 12px;
+      border: 1px solid #E2E8F0;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+    pre {
+      background: #1A202C;
+      color: #E2E8F0;
+      padding: 1.25rem;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      overflow-x: auto;
+    }
+    code {
+      color: #B83280;
+      background: #F7FAFC;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.875rem;
+    }
+    pre code {
+      color: #E2E8F0;
+      background: transparent;
+      padding: 0;
+    }
+    .swatch {
+      width: 100%;
+      height: 60px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 0.5rem;
+      border: 1px solid rgba(0,0,0,0.1);
+    }
+    .badge-feature {
+      background-color: #EBF2EC;
+      color: #183329;
+      font-weight: 600;
+      font-size: 0.75rem;
+      padding: 0.35rem 0.65rem;
+      border-radius: 20px;
+    }
+    @media (max-width: 991.98px) {
+      .doc-sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+      }
+      .doc-content {
+        margin-left: 0;
+        padding: 2rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SIDEBAR NAVIGATION -->
+  <aside class="doc-sidebar">
+    <div class="d-flex align-items-center gap-2 mb-4 pb-3 border-bottom border-secondary border-opacity-25">
+      <img src="../assets/images/brand/logo-light.svg" alt="Natuva Logo" height="34">
+    </div>
+    <div class="small text-uppercase text-white-50 fw-bold mb-2">Getting Started</div>
+    <nav class="nav flex-column mb-4">
+      <a class="nav-link active" href="#intro"><i class="bi bi-info-circle"></i> Introduction</a>
+      <a class="nav-link" href="#quickstart"><i class="bi bi-lightning-charge"></i> Quick Start</a>
+      <a class="nav-link" href="#structure"><i class="bi bi-folder2-open"></i> File Architecture</a>
+      <a class="nav-link" href="#pages"><i class="bi bi-layout-text-window"></i> Template Pages (14)</a>
+    </nav>
+
+    <div class="small text-uppercase text-white-50 fw-bold mb-2">Customization</div>
+    <nav class="nav flex-column mb-4">
+      <a class="nav-link" href="#design-system"><i class="bi bi-palette"></i> Colors & Typography</a>
+      <a class="nav-link" href="#theme-engine"><i class="bi bi-moon-stars"></i> Dark Mode & RTL</a>
+      <a class="nav-link" href="#cart-engine"><i class="bi bi-bag"></i> Cart & LocalStorage</a>
+      <a class="nav-link" href="#products-catalog"><i class="bi bi-grid"></i> Products Dataset</a>
+      <a class="nav-link" href="#forms-setup"><i class="bi bi-envelope-paper"></i> Forms & Submissions</a>
+    </nav>
+
+    <div class="small text-uppercase text-white-50 fw-bold mb-2">Integration & Credits</div>
+    <nav class="nav flex-column">
+      <a class="nav-link" href="#payment-gateways"><i class="bi bi-credit-card"></i> Payment Hookups</a>
+      <a class="nav-link" href="#licenses"><i class="bi bi-award"></i> Licenses & Credits</a>
+      <a class="nav-link" href="../index.html" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Live Preview</a>
+    </nav>
+  </aside>
+
+  <!-- MAIN DOCUMENTATION CONTENT -->
+  <main class="doc-content">
+
+    <!-- INTRO -->
+    <div class="doc-card" id="intro">
+      <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
+        <h1 class="h2 mb-0">Natuva Gourmet — Documentation</h1>
+        <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2">Version 1.0.0 (Commercial Release)</span>
+      </div>
+      <p class="lead text-muted">
+        <strong>Natuva Gourmet</strong> is a premium, artisanal e-commerce HTML5 website template engineered specifically for dry fruits & nuts stores, organic gourmet grocers, luxury corporate gifting ateliers, and wholesale distributors.
+      </p>
+      <div class="row g-3 mt-2">
+        <div class="col-md-3">
+          <div class="p-3 bg-light rounded text-center border">
+            <h4 class="h5 mb-1 text-primary">14 Pages</h4>
+            <span class="small text-muted">Complete Commercial Suite</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 bg-light rounded text-center border">
+            <h4 class="h5 mb-1 text-success">Strict 7 Sections</h4>
+            <span class="small text-muted">Every page exactly &le;7 sections</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 bg-light rounded text-center border">
+            <h4 class="h5 mb-1 text-warning">Dark & RTL</h4>
+            <span class="small text-muted">Zero-flash persistence</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 bg-light rounded text-center border">
+            <h4 class="h5 mb-1 text-info">Zero Backend</h4>
+            <span class="small text-muted">100% Static HTML/CSS/ES6</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- QUICK START -->
+    <div class="doc-card" id="quickstart">
+      <h2 class="h3 mb-3"><i class="bi bi-lightning-charge text-warning"></i> Quick Start</h2>
+      <p>Natuva Gourmet is 100% frontend static code. No Node.js build process, NPM install, or server-side compiler is required to view or customize the template.</p>
+      <ol class="ps-3 mb-4">
+        <li class="mb-2"><strong>Unzip the package:</strong> Extract the template folder to your preferred workspace.</li>
+        <li class="mb-2"><strong>Open in Browser:</strong> Double-click <a href="../index.html"><code>index.html</code></a> or open via VS Code Live Server / Local Web Server.</li>
+        <li class="mb-2"><strong>Theme Selection:</strong> Use the sun/moon icon in the navbar to test Dark and Light mode, or the globe icon to toggle LTR / RTL Arabic mode.</li>
+        <li class="mb-2"><strong>Customize Content:</strong> Edit the HTML files in any code editor (VS Code, Sublime, WebStorm).</li>
+      </ol>
+      <div class="alert alert-info d-flex align-items-center gap-2 mb-0">
+        <i class="bi bi-lightbulb-fill text-info fs-5"></i>
+        <div><strong>Tip for Best Performance:</strong> While double-clicking works for all HTML pages, running a local HTTP server (like VS Code Live Server or Python's <code>python -m http.server</code>) ensures smooth SVG font loading across all browser security policies.</div>
+      </div>
+    </div>
+
+    <!-- FILE ARCHITECTURE -->
+    <div class="doc-card" id="structure">
+      <h2 class="h3 mb-3"><i class="bi bi-folder2-open text-primary"></i> File Architecture</h2>
+      <pre><code>DryNuts/
+├── assets/
+│   ├── css/
+│   │   ├── bootstrap.min.css         # Local Bootstrap 5.3.3 core
+│   │   ├── bootstrap-icons.min.css   # Local Bootstrap Icons v1.11.3
+│   │   ├── style.css                 # Master tokens, typography, components
+│   │   ├── responsive.css            # 320px, 375px, 425px, 768px, 1024px, 1440px breakpoints
+│   │   ├── rtl.css                   # Right-to-Left Arabic/Hebrew layout stylesheet
+│   │   └── fonts/                    # Glyph files (woff2, woff)
+│   ├── js/
+│   │   ├── bootstrap.bundle.min.js   # Bootstrap JavaScript
+│   │   ├── theme.js                  # Dark/Light & LTR/RTL switcher
+│   │   ├── products-data.js          # Master catalog dataset (16 products, 6 hampers, 6 stories)
+│   │   ├── cart.js                   # Cart drawer, localStorage, coupons, checkout modal
+│   │   ├── filters.js                # Category pills, price slider, search, sort
+│   │   ├── forms.js                  # Accessible forms validation with feedback states
+│   │   └── main.js                   # Sticky navbar, gallery switcher, dynamic pack pricing
+│   ├── images/                       # Local optimized WebP and JPG image library
+│   └── data/
+│       └── products.json             # Standalone JSON catalog
+├── documentation/                    # Documentation guides & index.html
+├── index.html                        # Home 1: Premium Dry Fruits Store
+├── home-2.html                       # Home 2: Organic & Luxury Gifting Concept
+├── about.html                        # About Heritage & Quality Standards
+├── products.html                     # Catalog with live filter engine
+├── product-details.html              # Mammoth California Almonds details page
+├── gift-boxes.html                   # Luxury gift hampers collection
+├── gift-details.html                 # The Royal Heritage chest details page
+├── bulk-orders.html                  # Wholesale B2B enquiry portal
+├── projects.html                     # Sourcing & Farm Terroir stories
+├── project-details.html              # Single sourcing documentary details
+├── blog.html                         # Gourmet Journal & Nutrition Science
+├── blog-details.html                 # Soaked vs. Roasted Almonds article
+├── pricing.html                      # Retail, subscriptions, and bulk tiers
+├── contact.html                      # Tasting Atelier & contact enquiry
+├── robots.txt                        # Search engine crawling rules
+└── sitemap.xml                       # XML sitemap with 14 canonical URLs</code></pre>
+    </div>
+
+    <!-- TEMPLATE PAGES -->
+    <div class="doc-card" id="pages">
+      <h2 class="h3 mb-3"><i class="bi bi-layout-text-window text-success"></i> 14 Commercial Pages</h2>
+      <p>Each page is strictly engineered with <strong>at most 7 major content sections</strong> (excluding the universal header and footer):</p>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+          <thead class="table-light">
+            <tr>
+              <th>Page</th>
+              <th>Filename</th>
+              <th>Content Sections</th>
+              <th>Purpose & Core Features</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Home 1</strong></td>
+              <td><code>index.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Flagship retail storefront, product showcase, why choose us, corporate gifts banner, reviews, recipes, and newsletter.</td>
+            </tr>
+            <tr>
+              <td><strong>Home 2</strong></td>
+              <td><code>home-2.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Editorial luxury gifting concept, split hero, occasion finder, organic collection, farm journey, custom personalization, journal.</td>
+            </tr>
+            <tr>
+              <td><strong>About Us</strong></td>
+              <td><code>about.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Botanical heritage, stewardship, 4 pillars guarantee, nitrogen freshness science, artisan growers, customer reviews, tasting atelier CTA.</td>
+            </tr>
+            <tr>
+              <td><strong>Catalog</strong></td>
+              <td><code>products.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Live filtering, category pills, search input, price slider (₹100-₹4,000), sort dropdown, varietal guide, nitrogen tech, reviews, B2B CTA.</td>
+            </tr>
+            <tr>
+              <td><strong>Product Details</strong></td>
+              <td><code>product-details.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Interactive gallery switcher, pack size price calculation (250g/500g/1kg), add to cart, nutrition facts, pairing, related items, FAQ.</td>
+            </tr>
+            <tr>
+              <td><strong>Gift Boxes</strong></td>
+              <td><code>gift-boxes.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Luxury hampers catalogue, 4-step customization roadmap, corporate gifting ROI, box craftsmanship, testimonials, gifting FAQ, bulk CTA.</td>
+            </tr>
+            <tr>
+              <td><strong>Gift Details</strong></td>
+              <td><code>gift-details.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Royal Heritage Chest details, contents breakdown, custom branding options, unboxing video banner, occasion pairing, related hampers, concierge CTA.</td>
+            </tr>
+            <tr>
+              <td><strong>Bulk Orders</strong></td>
+              <td><code>bulk-orders.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>B2B wholesale portal, packaging specs, volume pricing matrix, onboarding steps, enterprise logos, fully validated quote enquiry form, sourcing desk contact.</td>
+            </tr>
+            <tr>
+              <td><strong>Sourcing Stories</strong></td>
+              <td><code>projects.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Harvest terroir chronicles, soil care, cold-chain logistics, optical sorting technology, grower interviews, lab certifications, harvest sample CTA.</td>
+            </tr>
+            <tr>
+              <td><strong>Story Details</strong></td>
+              <td><code>project-details.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>California Almond documentary, microclimate breakdown, harvest calendar, water efficiency metrics, orchard gallery, related stories, sample box CTA.</td>
+            </tr>
+            <tr>
+              <td><strong>Journal</strong></td>
+              <td><code>blog.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Nutrition & culinary dispatches, category filter buttons, daily handful infographic, expert endorsements, harvest calendar download, recipes, newsletter.</td>
+            </tr>
+            <tr>
+              <td><strong>Article Details</strong></td>
+              <td><code>blog-details.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Soaked vs. Roasted Almonds guide, phytate absorption charts, author bio, social sharing, recipe integration, related reads, subscription box banner.</td>
+            </tr>
+            <tr>
+              <td><strong>Pricing Tiers</strong></td>
+              <td><code>pricing.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Retail everyday prices, monthly subscription plans, curated hampers tiers, wholesale pricing matrix, included value pillars, pricing FAQ, custom quote CTA.</td>
+            </tr>
+            <tr>
+              <td><strong>Contact Atelier</strong></td>
+              <td><code>contact.html</code></td>
+              <td><span class="badge bg-success">7 Sections</span></td>
+              <td>Multi-channel cards, interactive enquiry form with department routing, private tasting booking, atelier map & transit guide, contact FAQ, volume concierge, newsletter.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- DESIGN SYSTEM -->
+    <div class="doc-card" id="design-system">
+      <h2 class="h3 mb-3"><i class="bi bi-palette text-danger"></i> Design System & Tokens</h2>
+      <p>All colors, font families, and radii are managed in <code>assets/css/style.css</code> via standard CSS Custom Properties:</p>
+      
+      <div class="row g-3 mb-4">
+        <div class="col-md-2 col-4">
+          <div class="swatch" style="background: #183329;">#183329</div>
+          <small class="d-block text-center fw-bold">Deep Forest</small>
+        </div>
+        <div class="col-md-2 col-4">
+          <div class="swatch" style="background: #5E8C6A;">#5E8C6A</div>
+          <small class="d-block text-center fw-bold">Pistachio</small>
+        </div>
+        <div class="col-md-2 col-4">
+          <div class="swatch" style="background: #87532E;">#87532E</div>
+          <small class="d-block text-center fw-bold">Roasted Almond</small>
+        </div>
+        <div class="col-md-2 col-4">
+          <div class="swatch" style="background: #C29B48; color: #183329;">#C29B48</div>
+          <small class="d-block text-center fw-bold">Harvest Gold</small>
+        </div>
+        <div class="col-md-2 col-4">
+          <div class="swatch" style="background: #FAF7F2; color: #183329; border: 1px solid #ccc;">#FAF7F2</div>
+          <small class="d-block text-center fw-bold">Warm Ivory</small>
+        </div>
+        <div class="col-md-2 col-4">
+          <div class="swatch" style="background: #0C1613;">#0C1613</div>
+          <small class="d-block text-center fw-bold">Dark Forest</small>
+        </div>
+      </div>
+
+      <h4 class="h5 mb-2">Changing the Brand Colors:</h4>
+      <pre><code>/* In assets/css/style.css */
+:root {
+  --color-forest: #183329;       /* Change to your primary hue */
+  --color-pistachio: #5E8C6A;    /* Secondary nature tint */
+  --color-almond: #87532E;       /* Warm roasted nut accent */
+  --color-gold: #C29B48;         /* Premium packaging gold */
+}</code></pre>
+    </div>
+
+    <!-- THEME ENGINE -->
+    <div class="doc-card" id="theme-engine">
+      <h2 class="h3 mb-3"><i class="bi bi-moon-stars text-info"></i> Dark Mode & RTL Engine</h2>
+      <p>Natuva Gourmet features an instantaneous, zero-flash theme and layout engine inside <code>assets/js/theme.js</code>.</p>
+      <ul>
+        <li><strong>Theme Persistence:</strong> Automatically checks <code>localStorage.getItem('natuva_theme')</code> or system preferences (<code>prefers-color-scheme</code>).</li>
+        <li><strong>RTL Support:</strong> Full Arabic/Hebrew bidirectional layout support toggled via the globe icon, loading <code>assets/css/rtl.css</code> dynamically.</li>
+        <li><strong>Zero Theme Flash:</strong> The script runs inline before DOM render to prevent any white screen flashes when opening dark pages.</li>
+      </ul>
+    </div>
+
+    <!-- CART ENGINE -->
+    <div class="doc-card" id="cart-engine">
+      <h2 class="h3 mb-3"><i class="bi bi-bag text-success"></i> Shopping Cart & LocalStorage</h2>
+      <p>The cart in <code>assets/js/cart.js</code> provides a full slide-out offcanvas drawer with:</p>
+      <ul>
+        <li><strong>Reactive Quantities:</strong> Add, increment, decrement, and remove items with real-time subtotal calculations.</li>
+        <li><strong>Free Shipping Bar:</strong> Interactive progress bar towards the ₹7,098.75 free shipping goal.</li>
+        <li><strong>Promotional Coupons:</strong> Try entering <code>GOURMET10</code> (10% off) or <code>FREESHIP</code> (free express shipping).</li>
+        <li><strong>Checkout Simulation:</strong> Modal with realistic order review, address preview, and order confirmation.</li>
+      </ul>
+    </div>
+
+    <!-- PRODUCTS DATASET -->
+    <div class="doc-card" id="products-catalog">
+      <h2 class="h3 mb-3"><i class="bi bi-grid text-primary"></i> Product Catalog & Customization</h2>
+      <p>Catalog items are defined as plain JavaScript objects in <code>assets/js/products-data.js</code>. To add a new product or modify existing items, simply edit this file:</p>
+      <pre><code>{
+  id: "prod-17",
+  slug: "turkish-aegean-wild-figs",
+  name: "Sun-Dried Aegean Wild Figs",
+  category: "dates-dried",
+  badge: "Organic",
+  rating: 4.9,
+  reviewsCount: 88,
+  price: 22.00,
+  compareAtPrice: 28.00,
+  weight: "400g / 14.1 oz",
+  origin: "Aydin, Turkey",
+  image: "assets/images/products/prod_dates_medjool.webp",
+  description: "Soft, golden-amber wild figs sundried naturally under the Aegean sun.",
+  nutrition: { calories: "249 kcal", protein: "3.3g", fat: "0.9g", fiber: "9.8g" },
+  featured: true,
+  bestSeller: true
+}</code></pre>
+    </div>
+
+    <!-- FORMS SETUP -->
+    <div class="doc-card" id="forms-setup">
+      <h2 class="h3 mb-3"><i class="bi bi-envelope-paper text-warning"></i> Forms & Submissions</h2>
+      <p>Forms on <code>contact.html</code>, <code>bulk-orders.html</code>, and the footer Newsletter are handled by <code>assets/js/forms.js</code> with:</p>
+      <ul>
+        <li>Client-side HTML5 constraint validation.</li>
+        <li>Inline field feedback (highlighting invalid fields and focusing the first error).</li>
+        <li>Animated spinner buttons and simulated async responses for static demonstration.</li>
+      </ul>
+      <p class="mb-0">For full instructions on connecting these forms to <strong>Web3Forms</strong>, <strong>Formspree</strong>, or <strong>PHP Mailer</strong>, see the included <a href="integration-guide.md"><code>documentation/integration-guide.md</code></a> file.</p>
+    </div>
+
+    <!-- LICENSES & CREDITS -->
+    <div class="doc-card" id="licenses">
+      <h2 class="h3 mb-3"><i class="bi bi-award text-success"></i> Licenses & Credits</h2>
+      <ul class="mb-3">
+        <li><strong>Bootstrap 5.3.3:</strong> Released under the <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank">MIT License</a>.</li>
+        <li><strong>Bootstrap Icons:</strong> Released under the <a href="https://github.com/twbs/icons/blob/main/LICENSE" target="_blank">MIT License</a>.</li>
+        <li><strong>Google Fonts:</strong> Playfair Display and Plus Jakarta Sans are released under the <a href="https://openfontlibrary.org/" target="_blank">SIL Open Font License 1.1</a>.</li>
+        <li><strong>Photography:</strong> Curated high-resolution food and agriculture imagery from <a href="https://unsplash.com/license" target="_blank">Unsplash</a> and custom photorealistic gourmet AI assets cleared for commercial use.</li>
+      </ul>
+      <p class="mb-0 text-muted small">&copy; 2026 Natuva Gourmet Atelier. Created for ThemeForest and TemplateMonster digital marketplaces.</p>
+    </div>
+
+  </main>
+
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "soaked-vs-roasted-almonds",
+    "src": "assets/images/blog/soaked-vs-roasted-almonds.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 357066,
+    "main": true
+  },
+  {
+    "slug": "soaked-almonds-closeup",
+    "src": "assets/images/blog-details/soaked-almonds-closeup.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 337250,
+    "main": false
+  },
+  {
+    "slug": "roasted-almonds-bowl",
+    "src": "assets/images/blog-details/roasted-almonds-bowl.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 320248,
+    "main": false
+  },
+  {
+    "slug": "luxury-dry-fruit-hampers",
+    "src": "assets/images/blog/luxury-dry-fruit-hampers.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 299916,
+    "main": true
+  },
+  {
+    "slug": "corporate-dry-fruit-gifts",
+    "src": "assets/images/blog-details/corporate-dry-fruit-gifts.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 271078,
+    "main": false
+  },
+  {
+    "slug": "wedding-nut-date-hamper",
+    "src": "assets/images/blog-details/wedding-nut-date-hamper.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 402006,
+    "main": false
+  },
+  {
+    "slug": "storing-dry-fruits",
+    "src": "assets/images/blog/storing-dry-fruits.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 283544,
+    "main": true
+  },
+  {
+    "slug": "walnuts-and-omega-3",
+    "src": "assets/images/blog/walnuts-and-omega-3.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 365970,
+    "main": true
+  },
+  {
+    "slug": "baking-with-medjool-dates",
+    "src": "assets/images/blog/baking-with-medjool-dates.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 316322,
+    "main": true
+  },
+  {
+    "slug": "cashew-grades-explained",
+    "src": "assets/images/blog/cashew-grades-explained.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 333132,
+    "main": true
+  },
+  {
+    "slug": "cashew-size-comparison",
+    "src": "assets/images/blog-details/cashew-size-comparison.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 113208,
+    "main": false
+  },
+  {
+    "slug": "cashew-grading-process",
+    "src": "assets/images/blog-details/cashew-grading-process.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 264984,
+    "main": false
+  }
+]

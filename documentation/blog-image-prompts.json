@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "soaked-vs-roasted-almonds",
+    "prompt": "Use case: photorealistic-natural. Asset: premium NATUVA food editorial photography. Main blog image: natural split composition with two bowls on one warm wooden surface, left a transparent glass bowl with brown skin-on almonds submerged in clear water, right an elegant cream ceramic bowl filled with dry roasted brown almonds; a few almonds scattered between. Distinct wet and dry textures. Only almonds. Single photograph, landscape 16:9 composition, consistent natural cream/wood palette, sharp true food textures, soft professional lighting. Request native 3840x2160 4K wherever supported. No embedded text, watermark, distorted food shapes or unrelated objects. Illustrative editorial image, not evidence of an actual product or facility.",
+    "source": "assets/images/blog-details/sources/soaked-vs-roasted-almonds.png"
+  },
+  {
+    "slug": "soaked-almonds-closeup",
+    "prompt": "Use case: photorealistic-natural. Asset: premium NATUVA food editorial photography. Supporting almond article image: close-up of soaked almonds with intact brown skins in a shallow clear glass bowl of clean water. A few hydrated skin-on almonds on a small spoon beside the bowl. Accurate pointed almond shapes and fine textured skins. Only almonds. Single photograph, landscape 16:9 composition, consistent natural cream/wood palette, sharp true food textures, soft professional lighting. Request native 3840x2160 4K wherever supported. No embedded text, watermark, distorted food shapes or unrelated objects. Illustrative editorial image, not evidence of an actual product or facility.",
+    "source": "assets/images/blog-details/sources/soaked-almonds-closeup.png"
+  },
+  {
+    "slug": "roasted-almonds-bowl",
+    "prompt": "Use case: photorealistic-natural. Asset: premium NATUVA food editorial photography. Supporting almond article image: roasted brown almonds with realistic lightly toasted skins filling an elegant pale ceramic serving bowl, a few almonds on natural linen and warm wood, warm side lighting emphasizing crisp textures. Only almonds. Single photograph, landscape 16:9 composition, consistent natural cream/wood palette, sharp true food textures, soft professional lighting. Request native 3840x2160 4K wherever supported. No embedded text, watermark, distorted food shapes or unrelated objects. Illustrative editorial image, not evidence of an actual product or facility.",
+    "source": "assets/images/blog-details/sources/roasted-almonds-bowl.png"
+  },
+  {
+    "slug": "cashew-grades-explained",
+    "prompt": "Photorealistic premium food editorial, single landscape 16:9 photograph: three equal shallow bowls holding whole ivory cashews; left kernels about 26mm long, middle 24mm, right 22mm. All bowls should appear filled with broadly similar-sized nuts, only a SUBTLE difference. Absolutely no giant cashews and no tiny baby kernels. Largest kernels only 18 percent longer than smallest. Do not exaggerate the grading differences. Anatomically accurate gently curved kidney-shaped whole cashew kernels with natural smooth ivory surfaces. Warm beige/wood color palette, soft daylight, real product textures. No text, labels, logos, watermark, medical claims or other nut species. Request native 3840x2160 if supported. Main objective: realistic SUBTLE size differences, not exaggerated diagrammatic sizes.",
+    "source": "assets/images/blog-details/sources/cashew-grades-explained-refined.png",
+    "previousVersion": {
+      "prompt": "Use case: photorealistic-natural. Asset: premium NATUVA food editorial photography. Main cashew grading article image: three equally sized shallow ceramic bowls arranged side by side on a warm beige and wooden surface, containing whole curved ivory cashews. Left bowl has noticeably larger whole cashews, center medium whole cashews, right smaller whole cashews; realistic modest size differences, all same perspective. The idea is W180 W240 W320, but DO NOT print any text or labels in the image. All nuts natural kidney-shaped cashews with smooth creamy surfaces, no other nuts. Single photograph, landscape 16:9 composition, consistent natural cream/wood palette, sharp true food textures, soft professional lighting. Request native 3840x2160 4K wherever supported. No embedded text, watermark, distorted food shapes or unrelated objects. Illustrative editorial image, not evidence of an actual product or facility.",
+      "source": "assets/images/blog-details/sources/cashew-grades-explained.png"
+    }
+  },
+  {
+    "slug": "cashew-size-comparison",
+    "prompt": "Photorealistic premium food editorial, single landscape 16:9 photograph: three small groups of five whole ivory cashews each on the SAME flat beige surface at the SAME camera distance. Left group about 26mm long, center about 24mm, right about 22mm. The largest is only 18 percent longer than the smallest. Subtle realistic variation, nearly similar at first glance. No giant kernels, miniatures, broken pieces, scales or rulers. Anatomically accurate gently curved kidney-shaped whole cashew kernels with natural smooth ivory surfaces. Warm beige/wood color palette, soft daylight, real product textures. No text, labels, logos, watermark, medical claims or other nut species. Request native 3840x2160 if supported. Main objective: realistic SUBTLE size differences, not exaggerated diagrammatic sizes.",
+    "source": "assets/images/blog-details/sources/cashew-size-comparison-refined.png",
+    "previousVersion": {
+      "prompt": "Use case: photorealistic-natural. Asset: premium NATUVA food editorial photography. Supporting cashew grading article: macro top-down comparison of three small groups of whole ivory cashew kernels on a clean beige surface, larger on left, medium in center, smaller on right, same camera distance, naturally curved kidney shapes. No typography, rulers, numbers or marks. Only cashews. Single photograph, landscape 16:9 composition, consistent natural cream/wood palette, sharp true food textures, soft professional lighting. Request native 3840x2160 4K wherever supported. No embedded text, watermark, distorted food shapes or unrelated objects. Illustrative editorial image, not evidence of an actual product or facility.",
+      "source": "assets/images/blog-details/sources/cashew-size-comparison.png"
+    }
+  },
+  {
+    "slug": "cashew-grading-process",
+    "prompt": "Photorealistic premium food editorial, single landscape 16:9 photograph: food-safe gloved hands sorting whole creamy cashew kernels into three equal stainless trays. All kernels have similar natural size, with ONLY subtle grading differences around 22 to 26mm length, no giant kernels or tiny baby nuts. Medium close view of a clean food sorting table. Anatomically accurate gently curved kidney-shaped whole cashew kernels with natural smooth ivory surfaces. Warm beige/wood color palette, soft daylight, real product textures. No text, labels, logos, watermark, medical claims or other nut species. Request native 3840x2160 if supported. Main objective: realistic SUBTLE size differences, not exaggerated diagrammatic sizes.",
+    "source": "assets/images/blog-details/sources/cashew-grading-process-refined.png",
+    "previousVersion": {
+      "prompt": "Use case: photorealistic-natural. Asset: premium NATUVA food editorial photography. Supporting cashew grading article: close view of food-safe gloved hands sorting whole cashew kernels by size into three clean shallow stainless steel trays. Realistically curved creamy cashews, clean professional food handling space, no logos or factory claims, no other nuts. Single photograph, landscape 16:9 composition, consistent natural cream/wood palette, sharp true food textures, soft professional lighting. Request native 3840x2160 4K wherever supported. No embedded text, watermark, distorted food shapes or unrelated objects. Illustrative editorial image, not evidence of an actual product or facility.",
+      "source": "assets/images/blog-details/sources/cashew-grading-process.png"
+    }
+  },
+  {
+    "slug": "luxury-dry-fruit-hampers",
+    "prompt": "Use case: photorealistic-natural. Asset: premium NATUVA food editorial photography. Main gifting article image: one elegant open wooden gift hamper with restrained gold accents and forest-green ribbon, five clear compartments holding almonds, cashews, split-shell pistachios, walnut halves and large brown Medjool dates separately. Refined cream and forest-green presentation on warm neutral table, premium wedding and corporate gifting aesthetic, warm studio light, realistic food textures. No cakes, balloons, confetti, writing, brands or labels. Single photograph, landscape 16:9 composition, consistent natural cream/wood palette, sharp true food textures, soft professional lighting. Request native 3840x2160 4K wherever supported. No embedded text, watermark, distorted food shapes or unrelated objects. Illustrative editorial image, not evidence of an actual product or facility.",
+    "source": "assets/images/blog-details/sources/luxury-dry-fruit-hampers.png"
+  },
+  {
+    "slug": "corporate-dry-fruit-gifts",
+    "prompt": "Use case: photorealistic-natural. Asset: premium NATUVA food editorial photography. Supporting corporate gift image: a neat collection of three premium forest-green and natural wood dry fruit gift boxes on an elegant neutral desk, one open showing almonds, cashews, pistachios, walnuts and Medjool dates in separate compartments; two closed with cream ribbons. Sophisticated restrained corporate presentation. No writing, logos, certificates, alcohol, cakes, balloons or confetti. Single photograph, landscape 16:9 composition, consistent natural cream/wood palette, sharp true food textures, soft professional lighting. Request native 3840x2160 4K wherever supported. No embedded text, watermark, distorted food shapes or unrelated objects. Illustrative editorial image, not evidence of an actual product or facility.",
+    "source": "assets/images/blog-details/sources/corporate-dry-fruit-gifts.png"
+  },
+  {
+    "slug": "wedding-nut-date-hamper",
+    "prompt": "Use case: photorealistic-natural. Asset: premium NATUVA food editorial photography. Supporting wedding gift image: an elegant ivory and gold-accented open keepsake tray with assorted almonds, whole cashews, pistachios, walnuts and dates in separate compartments, champagne satin ribbon and a small neutral floral accent beside it. Warm soft studio lighting, tactile realistic packaging and food. No text, brand, cakes, balloons or confetti. Single photograph, landscape 16:9 composition, consistent natural cream/wood palette, sharp true food textures, soft professional lighting. Request native 3840x2160 4K wherever supported. No embedded text, watermark, distorted food shapes or unrelated objects. Illustrative editorial image, not evidence of an actual product or facility.",
+    "source": "assets/images/blog-details/sources/wedding-nut-date-hamper.png"
+  },
+  {
+    "slug": "storing-dry-fruits",
+    "prompt": "Use case: photorealistic-natural. Premium food editorial photograph. Main image for storing nuts and dry fruits: clean airtight glass jars with secure lids containing almonds, cashews, walnut halves and dates separately on a shaded pantry shelf, no direct sunlight, warm neutral wood, organized home kitchen atmosphere. No medicine, pills or supplements. Single landscape 16:9 image, soft natural light, accurate food textures, warm cream/wood palette consistent with a luxury nuts journal. Request native 3840x2160 4K wherever supported. No embedded text, logos, watermark or distorted food shapes.",
+    "source": "assets/images/blog-details/sources/storing-dry-fruits.png"
+  },
+  {
+    "slug": "walnuts-and-omega-3",
+    "prompt": "Use case: photorealistic-natural. Premium food editorial photograph. Main image for a balanced walnut nutrition article: realistic golden-brown walnut butterfly halves in a low elegant cream bowl, a few whole ridged walnut shells and kernels on warm linen and stone. Only walnuts, no apples, no brain diagrams, no medical symbols. Single landscape 16:9 image, soft natural light, accurate food textures, warm cream/wood palette consistent with a luxury nuts journal. Request native 3840x2160 4K wherever supported. No embedded text, logos, watermark or distorted food shapes.",
+    "source": "assets/images/blog-details/sources/walnuts-and-omega-3.png"
+  },
+  {
+    "slug": "baking-with-medjool-dates",
+    "prompt": "Use case: photorealistic-natural. Premium food editorial photograph. Main image for baking with dates: thick smooth brown Medjool date paste in a small cream bowl with a spoon, several whole and pitted brown dates beside it, a sliced date-and-walnut loaf in the background, simple home baking scene on warm neutral countertop. Focus clearly on date paste and actual dates, not generic bread. Single landscape 16:9 image, soft natural light, accurate food textures, warm cream/wood palette consistent with a luxury nuts journal. Request native 3840x2160 4K wherever supported. No embedded text, logos, watermark or distorted food shapes.",
+    "source": "assets/images/blog-details/sources/baking-with-medjool-dates.png"
+  }
+]

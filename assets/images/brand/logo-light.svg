@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 54" width="240" height="54" fill="none">
+  <g transform="translate(4, 3)">
+    <rect width="48" height="48" rx="14" fill="#24483B"/>
+    <path d="M24 10 C16 18, 14 28, 24 38 C34 28, 32 18, 24 10 Z" fill="#D8B772"/>
+    <path d="M24 14 Q25 24 24 35" stroke="#183329" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="24" cy="24" r="2.5" fill="#7CA888"/>
+  </g>
+  <text x="64" y="32" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700" fill="#FAF7F2" letter-spacing="1.5">NATUVA</text>
+  <text x="65" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="600" fill="#D8B772" letter-spacing="3.2">GOURMET DRY FRUITS</text>
+</svg>

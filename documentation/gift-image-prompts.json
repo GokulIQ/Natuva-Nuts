@@ -1,0 +1,158 @@
+[
+  {
+    "id": "gift-royal-heritage-box",
+    "role": "close",
+    "slug": "gift-royal-heritage-box-close",
+    "reference": "assets/images/gifts/gift-royal-heritage-box.webp",
+    "prompt": "Use case: product-mockup. Reference image identifies the packaging materials and geometry only. Create a new EXTREME MACRO craftsmanship photograph, a tight crop covering about one quarter of the physical package, not a full product shot. ONLY the front corner of the navy blue and gold octagonal gift chest: intricate gold filigree on the outer wall, gold rim and the blue velvet-lined divider intersection. A few almonds peek into the upper edge. The rest of the chest and the lid are OUTSIDE the frame. Camera is close enough that material grain and joint construction dominate. Warm diffuse light, cream linen softly blurred behind, realistic proportions and materials, crisp detail in the relevant rim or hardware. Landscape 3:2, highest supported native resolution. Absolutely NO full package view, no full assortment, no text, logos, watermark or collage. Preserve the reference product's color and construction.",
+    "source": "assets/images/gift-details/sources/gift-royal-heritage-box-close-refined.png",
+    "previousVersion": {
+      "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same low octagonal navy-blue gift chest with gold filigree decoration, a removable matching lid, four gold-edged navy compartments and champagne gold ribbon; contents are almonds, whole cashews, pistachios and Medjool dates. Composition: A macro three-quarter view of the navy-and-gold lid edge, embossed gold filigree, compartment joinery and ribbon. A few almonds in one corner. Show material detail, not the entire reference scene. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+      "source": "assets/images/gift-details/sources/gift-royal-heritage-box-close.png"
+    }
+  },
+  {
+    "id": "gift-royal-heritage-box",
+    "role": "contents",
+    "slug": "gift-royal-heritage-box-contents",
+    "reference": "assets/images/gifts/gift-royal-heritage-box.webp",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same low octagonal navy-blue gift chest with gold filigree decoration, a removable matching lid, four gold-edged navy compartments and champagne gold ribbon; contents are almonds, whole cashews, pistachios and Medjool dates. Composition: A new directly overhead flat-lay view of the open chest with four clearly separated compartments of almonds, cashews, pistachios and glossy dates. Lid set beside it, every compartment visible, minimal cream linen backdrop. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-royal-heritage-box-contents.png"
+  },
+  {
+    "id": "gift-royal-heritage-box",
+    "role": "occasion",
+    "slug": "gift-royal-heritage-box-occasion",
+    "reference": "assets/images/gifts/gift-royal-heritage-box.webp",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same low octagonal navy-blue gift chest with gold filigree decoration, a removable matching lid, four gold-edged navy compartments and champagne gold ribbon; contents are almonds, whole cashews, pistachios and Medjool dates. Composition: The chest presented open at an elegant festive family table with ivory linen, a subtle candle and a small white floral arrangement. Wider environmental composition with the entire chest and lid visible, no people. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-royal-heritage-box-occasion.png"
+  },
+  {
+    "id": "gift-festive-brass-tins",
+    "role": "close",
+    "slug": "gift-festive-brass-tins-close",
+    "reference": "assets/images/gifts/gift-festive-brass-tins.webp",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same trio of antique gold brass cylindrical jars with engraved floral bands, hammered surfaces, domed lids with round knobs and a rectangular dark wood tray; contents saffron-coated cashews, green pistachio kernels and brown almonds. Composition: A new macro view of ONE brass jar and its domed lid, clearly emphasizing the engraved floral bands, hammered brass texture and polished rim. Two other jars softly visible behind. Cream linen and dark wood backdrop. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-festive-brass-tins-close.png"
+  },
+  {
+    "id": "gift-festive-brass-tins",
+    "role": "contents",
+    "slug": "gift-festive-brass-tins-contents",
+    "reference": "assets/images/gifts/gift-festive-brass-tins.webp",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same trio of antique gold brass cylindrical jars with engraved floral bands, hammered surfaces, domed lids with round knobs and a rectangular dark wood tray; contents saffron-coated cashews, green pistachio kernels and brown almonds. Composition: Direct overhead flat lay of exactly THREE open brass jars on the dark wood tray, one filled with saffron cashews, one with green pistachio kernels, one with almonds. Three matching lids neatly beside the tray. All jar openings clearly visible; no towering nut piles. Minimal warm stone backdrop. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-festive-brass-tins-contents.png"
+  },
+  {
+    "id": "gift-festive-brass-tins",
+    "role": "occasion",
+    "slug": "gift-festive-brass-tins-occasion",
+    "reference": "assets/images/gifts/gift-festive-brass-tins.webp",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same trio of antique gold brass cylindrical jars with engraved floral bands, hammered surfaces, domed lids with round knobs and a rectangular dark wood tray; contents saffron-coated cashews, green pistachio kernels and brown almonds. Composition: A wider new scene showing exactly THREE CLOSED brass jars with their domed knob lids on the dark wood tray at an elegant anniversary dinner setting, cream runner, two understated brass candleholders and small white flowers. The entire trio is visible. No marigold garlands; clearly different composition from reference. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-festive-brass-tins-occasion.png"
+  },
+  {
+    "id": "gift-imperial-leatherette-hamper",
+    "role": "close",
+    "slug": "gift-imperial-leatherette-hamper-close",
+    "reference": "assets/images/gifts/gift-imperial-leatherette-hamper.webp",
+    "prompt": "Use case: product-mockup. Reference image identifies the packaging materials and geometry only. Create a new EXTREME MACRO craftsmanship photograph, a tight crop covering about one quarter of the physical package, not a full product shot. ONLY the lower front-right corner of the forest-green leatherette trunk: close visible stitching, fine green leatherette grain, a brass latch, brass corner protector and part of the handle attachment. Tiny glimpse of green lining at the top. The whole trunk and its contents are OUTSIDE the frame. Camera is close enough that material grain and joint construction dominate. Warm diffuse light, cream linen softly blurred behind, realistic proportions and materials, crisp detail in the relevant rim or hardware. Landscape 3:2, highest supported native resolution. Absolutely NO full package view, no full assortment, no text, logos, watermark or collage. Preserve the reference product's color and construction.",
+    "source": "assets/images/gift-details/sources/gift-imperial-leatherette-hamper-close-refined.png",
+    "previousVersion": {
+      "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same rectangular forest-green leatherette gift trunk, matching green handle and suede lining, stitched seams, gold brass clasps and corner protectors, clear cut-glass nut decanters and a small honey jar. Composition: Macro three-quarter angle of the green trunk front corner, fine stitched seam, brass clasp, leatherette grain and handle attachment. A glimpse of a cut-glass decanter through the partly open lid. Show construction detail, not a second hero composition. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+      "source": "assets/images/gift-details/sources/gift-imperial-leatherette-hamper-close.png"
+    }
+  },
+  {
+    "id": "gift-imperial-leatherette-hamper",
+    "role": "contents",
+    "slug": "gift-imperial-leatherette-hamper-contents",
+    "reference": "assets/images/gifts/gift-imperial-leatherette-hamper.webp",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same rectangular forest-green leatherette gift trunk, matching green handle and suede lining, stitched seams, gold brass clasps and corner protectors, clear cut-glass nut decanters and a small honey jar. Composition: New overhead contents reveal of the open forest-green trunk with SIX small clear cut-glass decanters of almonds, cashews, pistachios, walnuts, raisins and dates, a small honey jar and wooden dipper, a few dark chocolate almond bark pieces and brass serving tools in a neat arrangement. Scale containers realistically to fit. Show all contents without cropping the trunk. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-imperial-leatherette-hamper-contents.png"
+  },
+  {
+    "id": "gift-imperial-leatherette-hamper",
+    "role": "occasion",
+    "slug": "gift-imperial-leatherette-hamper-occasion",
+    "reference": "assets/images/gifts/gift-imperial-leatherette-hamper.webp",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same rectangular forest-green leatherette gift trunk, matching green handle and suede lining, stitched seams, gold brass clasps and corner protectors, clear cut-glass nut decanters and a small honey jar. Composition: A wider executive gifting scene: the forest-green trunk closed and tied with a restrained cream ribbon on a polished walnut meeting-room sideboard, one clear nut decanter and a small honey jar beside it. Soft natural office daylight, clean sophisticated background, no people, no screens or writing. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-imperial-leatherette-hamper-occasion.png"
+  },
+  {
+    "id": "gift-wedding-velvet-trays",
+    "role": "close",
+    "slug": "gift-wedding-velvet-trays-close",
+    "reference": "assets/images/gifts/Noor Velvet Keepsake Tray.jpg",
+    "prompt": "Use case: product-mockup. Reference image identifies the packaging materials and geometry only. Create a new EXTREME MACRO craftsmanship photograph, a tight crop covering about one quarter of the physical package, not a full product shot. ONLY one corner of the clear acrylic nut tray on its dark brown and gold geometric gift base: transparent rim thickness, acrylic divider junction, clear protective cover edge, whole cashews visible behind the divider. The entire tray must NOT fit into the frame. Camera is close enough that material grain and joint construction dominate. Warm diffuse light, cream linen softly blurred behind, realistic proportions and materials, crisp detail in the relevant rim or hardware. Landscape 3:2, highest supported native resolution. Absolutely NO full package view, no full assortment, no text, logos, watermark or collage. Preserve the reference product's color and construction.",
+    "source": "assets/images/gift-details/sources/gift-wedding-velvet-trays-close-refined.png",
+    "previousVersion": {
+      "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same clear faceted divided acrylic nut presentation tray on a dark brown rectangular gift base with delicate gold geometric line accents; transparent compartment walls and clear protective cover. Composition: Macro view of the clear tray rim, transparent divider junction and gold-accented dark base, with roasted almonds and whole cashews visible through the acrylic. Preserve the reference packaging form. No pink fabric box, no brass jars. Plain cream surface instead of autumn props. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+      "source": "assets/images/gift-details/sources/gift-wedding-velvet-trays-close.png"
+    }
+  },
+  {
+    "id": "gift-wedding-velvet-trays",
+    "role": "contents",
+    "slug": "gift-wedding-velvet-trays-contents",
+    "reference": "assets/images/gifts/Noor Velvet Keepsake Tray.jpg",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same clear faceted divided acrylic nut presentation tray on a dark brown rectangular gift base with delicate gold geometric line accents; transparent compartment walls and clear protective cover. Composition: New overhead view of the clear divided tray, its transparent cover placed beside the dark brown gold-accented base. Arrange roasted almonds, salted cashews, dried figs and long golden raisins in separate compartments. Natural food shapes, every compartment visible. A minimal warm-neutral setting. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-wedding-velvet-trays-contents.png"
+  },
+  {
+    "id": "gift-wedding-velvet-trays",
+    "role": "occasion",
+    "slug": "gift-wedding-velvet-trays-occasion",
+    "reference": "assets/images/gifts/Noor Velvet Keepsake Tray.jpg",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same clear faceted divided acrylic nut presentation tray on a dark brown rectangular gift base with delicate gold geometric line accents; transparent compartment walls and clear protective cover. Composition: The same clear divided nut tray on its gold-accented dark base presented at an elegant wedding welcome table with ivory flowers and a champagne satin ribbon, blank unprinted small gift tag. Wider environmental view, whole package visible. No pumpkins or autumn leaves. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-wedding-velvet-trays-occasion.png"
+  },
+  {
+    "id": "gift-corporate-artisan-chest",
+    "role": "close",
+    "slug": "gift-corporate-artisan-chest-close",
+    "reference": "assets/images/gifts/Executive Cedarwood Gifting Chest.jpg",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same faceted natural light-wood presentation chest with geometric wooden compartment dividers, natural grain, clear protective cover and a rich assortment of nuts and bite-sized treats. Composition: Macro of the wood frame corner, smooth geometric divider intersections and transparent cover edge, with almonds and hazelnuts in adjacent compartments. Show natural wood grain and joinery. No lettering, branded jars or foil brand labels. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-corporate-artisan-chest-close.png"
+  },
+  {
+    "id": "gift-corporate-artisan-chest",
+    "role": "contents",
+    "slug": "gift-corporate-artisan-chest-contents",
+    "reference": "assets/images/gifts/Executive Cedarwood Gifting Chest.jpg",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same faceted natural light-wood presentation chest with geometric wooden compartment dividers, natural grain, clear protective cover and a rich assortment of nuts and bite-sized treats. Composition: New directly overhead contents layout of the same open geometric wooden chest. Separate compartments of roasted almonds, cashews, hazelnuts, walnuts and date-and-nut energy bites, with four compact plain unprinted silver aluminum canisters arranged beside the box. No cookies, no coffee beans, no branded chocolates. Neutral stone tabletop, entire box visible. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-corporate-artisan-chest-contents.png"
+  },
+  {
+    "id": "gift-corporate-artisan-chest",
+    "role": "occasion",
+    "slug": "gift-corporate-artisan-chest-occasion",
+    "reference": "assets/images/gifts/Executive Cedarwood Gifting Chest.jpg",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: the same faceted natural light-wood presentation chest with geometric wooden compartment dividers, natural grain, clear protective cover and a rich assortment of nuts and bite-sized treats. Composition: The same geometric wooden nut chest presented as a corporate appreciation gift on a refined meeting room credenza. Clear cover on, ivory ribbon and a blank brass plaque nearby. Minimal warm office setting, subtle greenery, natural daylight. No text or logos, no people. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-corporate-artisan-chest-occasion.png"
+  },
+  {
+    "id": "gift-wellness-duo-keepsake",
+    "role": "close",
+    "slug": "gift-wellness-duo-keepsake-close",
+    "reference": "assets/images/gifts/The Vitality Keepsake Duo.jpg",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: coordinated round low gold-finish metal gift tins with smooth cylindrical rims and lids, styled on muted sage-green woven linen; natural nuts and dates, understated botanical presentation matching the reference palette. Composition: A new macro view of a closed gold tin's smooth rim and lid seam with raw jute twine and a small botanical leaf, another tin edge softly in the background, sage woven linen. Warm diffused daylight, emphasize simple reusable metal packaging, no cardboard box. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-wellness-duo-keepsake-close.png"
+  },
+  {
+    "id": "gift-wellness-duo-keepsake",
+    "role": "contents",
+    "slug": "gift-wellness-duo-keepsake-contents",
+    "reference": "assets/images/gifts/The Vitality Keepsake Duo.jpg",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: coordinated round low gold-finish metal gift tins with smooth cylindrical rims and lids, styled on muted sage-green woven linen; natural nuts and dates, understated botanical presentation matching the reference palette. Composition: An overhead contents reveal of TWO open round gold tins, one neatly filled with natural walnut halves and the other with glossy Medjool dates. Matching lids beside them, a blank seed-paper card and jute twine. Sage linen and pale wood backdrop; entire two-tin arrangement visible. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-wellness-duo-keepsake-contents.png"
+  },
+  {
+    "id": "gift-wellness-duo-keepsake",
+    "role": "occasion",
+    "slug": "gift-wellness-duo-keepsake-occasion",
+    "reference": "assets/images/gifts/The Vitality Keepsake Duo.jpg",
+    "prompt": "Use case: product-mockup. Asset type: luxury dry-fruit gift detail supporting photograph. Input image: reference for product identity and materials only; preserve its defining packaging geometry and finish but create a distinctly NEW camera view and setting, not a crop or duplicate. Subject: coordinated round low gold-finish metal gift tins with smooth cylindrical rims and lids, styled on muted sage-green woven linen; natural nuts and dates, understated botanical presentation matching the reference palette. Composition: Two coordinated round gold tins with their lids on, tied together with raw jute twine, presented as a thoughtful housewarming gift on a light oak breakfast table with a small plant, a blank cream greeting card and subtle sage linen. Wider lifestyle composition, natural warm light, no people. Style: realistic premium editorial food photography, natural textures, plausible geometry and food proportions, soft professional lighting. One photograph only, landscape 3:2. Request native 3840x2560 or highest supported resolution. Keep important objects fully inside frame with breathing room. Remove all lettering and logos from reference packaging; NO text, watermark, collage, graphic labels or fake writing. Do not add unrelated products. Output an opaque image.",
+    "source": "assets/images/gift-details/sources/gift-wellness-duo-keepsake-occasion.png"
+  }
+]

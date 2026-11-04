@@ -1,0 +1,145 @@
+/* ==========================================================================
+   NATUVA GOURMET — RTL (RIGHT-TO-LEFT) STYLESHEET
+   Direction: rtl | Languages: Arabic, Hebrew, Persian, Urdu
+   ========================================================================== */
+
+[dir="rtl"] {
+  text-align: right;
+  direction: rtl;
+}
+
+[dir="rtl"] body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* Headings in RTL */
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3,
+[dir="rtl"] h4, [dir="rtl"] h5, [dir="rtl"] h6 {
+  letter-spacing: 0;
+}
+
+/* Navbar & Brand */
+[dir="rtl"] .navbar-brand-wrap {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .brand-text {
+  text-align: right;
+}
+
+[dir="rtl"] .ms-auto {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+
+[dir="rtl"] .me-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+[dir="rtl"] .text-end {
+  text-align: left !important;
+}
+
+[dir="rtl"] .text-start {
+  text-align: right !important;
+}
+
+/* Dropdown */
+[dir="rtl"] .dropdown-menu {
+  text-align: right;
+}
+
+[dir="rtl"] .dropdown-item {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .dropdown-item:hover,
+[dir="rtl"] .dropdown-item:focus {
+  transform: translateX(-3px);
+}
+
+/* Icons Direction Flip */
+[dir="rtl"] .bi-arrow-right,
+[dir="rtl"] .bi-chevron-right {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .bi-arrow-left,
+[dir="rtl"] .bi-chevron-left {
+  transform: scaleX(-1);
+}
+
+/* Badges & Pill Tags */
+[dir="rtl"] .product-badge-wrap {
+  left: auto;
+  right: 1.5rem;
+}
+
+[dir="rtl"] .cart-badge {
+  right: auto;
+  left: -4px;
+}
+
+/* Hero Floating Badge */
+[dir="rtl"] .hero-floating-badge {
+  left: auto;
+  right: 24px;
+  flex-direction: row-reverse;
+}
+
+/* Sourcing Tag */
+[dir="rtl"] .story-origin-tag {
+  right: auto;
+  left: 1rem;
+  flex-direction: row-reverse;
+}
+
+/* Cart Drawer */
+[dir="rtl"] .cart-drawer {
+  right: auto;
+  left: 0;
+  transform: translateX(-100%);
+}
+
+[dir="rtl"] .cart-drawer.is-open {
+  transform: translateX(0);
+}
+
+/* Testimonial Author */
+[dir="rtl"] .testimonial-author {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+/* Footer Nav */
+[dir="rtl"] .footer-nav a {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer-nav a:hover {
+  transform: translateX(-4px);
+}
+
+/* Buttons */
+[dir="rtl"] .btn {
+  flex-direction: row-reverse;
+}
+
+/* Form Controls */
+[dir="rtl"] .form-control,
+[dir="rtl"] .form-select {
+  text-align: right;
+}
+
+[dir="rtl"] .form-check {
+  padding-left: 0;
+  padding-right: 1.5em;
+}
+
+[dir="rtl"] .form-check-input {
+  float: right;
+  margin-right: -1.5em;
+  margin-left: 0;
+}
+

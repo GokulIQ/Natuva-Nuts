@@ -1,0 +1,32 @@
+/* Preserve the journal card design while supporting dynamic articles and narrow screens. */
+.blog-meta-bar { flex-wrap: wrap; row-gap: 0.35rem; }
+.blog-card-item[hidden], #blog-detail[hidden], #blog-empty[hidden], #blog-comparison[hidden], #blog-sources[hidden] { display: none !important; }
+.blog-search { width: min(100%, 340px); }
+.blog-featured-image { aspect-ratio: 3 / 2; object-fit: cover; }
+.blog-breadcrumb { display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1.5rem; }
+.blog-breadcrumb [aria-current] { overflow-wrap: anywhere; }
+.blog-detail-hero { width: 100%; height: auto; display: block; border-radius: var(--radius-lg); }
+.blog-article-copy { font-size: 1rem; line-height: 1.85; color: var(--text-main); }
+.blog-article-section { margin-bottom: 2.5rem; scroll-margin-top: 100px; }
+.blog-article-section h2 { margin-bottom: 1rem; }
+.blog-article-section p:last-child { margin-bottom: 0; }
+.blog-supporting-figure { margin: 2.5rem 0; }
+.blog-supporting-figure img { height: auto; }
+.blog-detail-sidebar { position: sticky; top: 100px; }
+.blog-toc { padding-inline-start: 1.25rem; margin-bottom: 0; }
+.blog-toc li + li { margin-top: 0.7rem; }
+.blog-detail-sidebar .blog-sidebar-post { display: flex; align-items: start; gap: 0.8rem; color: var(--text-heading); font-weight: 600; font-size: 0.85rem; }
+.blog-sidebar-post img { width: 72px; height: 58px; object-fit: cover; flex: 0 0 72px; border-radius: 8px; }
+.blog-sidebar-post span { min-width: 0; overflow-wrap: anywhere; }
+.blog-sidebar-post + .blog-sidebar-post { margin-top: 1.25rem; }
+.blog-detail-sidebar .blog-sidebar-post:hover { color: var(--color-gold); }
+#blog-comparison { margin-top: 2.5rem; }
+#blog-comparison th, #blog-comparison td { min-width: 140px; white-space: normal; }
+#blog-sources { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-light); overflow-wrap: anywhere; }
+#blog-sources li { margin-block: 0.7rem; }
+#blog-share-status { overflow-wrap: anywhere; }
+@media (max-width: 991.98px) { .blog-detail-sidebar { position: static; } }
+@media (max-width: 575.98px) {
+  .blog-detail-title { font-size: 1.85rem; }
+  .blog-detail-sidebar .p-4 { padding: 1.25rem !important; }
+}

@@ -1,0 +1,158 @@
+/* Product browsing controls, scoped to the catalog page. */
+.catalog-category-pills .btn {
+  min-height: 44px;
+}
+
+.catalog-filter-heading .btn-reset-filters {
+  flex: 0 0 auto;
+  width: auto;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.catalog-search .form-control {
+  min-width: 0;
+}
+
+.catalog-filter-details > summary {
+  display: none;
+}
+
+.catalog-category-list .dropdown-item {
+  gap: 0.5rem;
+  white-space: normal;
+}
+
+.catalog-category-list .dropdown-item > :last-child {
+  flex-shrink: 0;
+}
+
+.catalog-sort {
+  min-width: 0;
+}
+
+.catalog-sort .form-select,
+#catalog-category-select {
+  min-height: 44px;
+  min-width: 0;
+  padding-inline: 0.85rem 2.5rem;
+  background-position: right 0.8rem center;
+}
+
+[dir="rtl"] .catalog-sort .form-select,
+[dir="rtl"] #catalog-category-select {
+  background-position: left 0.8rem center;
+}
+
+@media (max-width: 991.98px) {
+  .catalog-section .filter-sidebar {
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+
+  .catalog-filter-heading {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .catalog-search {
+    margin-bottom: 1rem !important;
+  }
+
+  .catalog-filter-details {
+    border-top: 1px solid var(--border-light);
+  }
+
+  .catalog-filter-details > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-height: 48px;
+    padding-block: 0.65rem;
+    color: var(--text-heading);
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .catalog-filter-details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .catalog-filter-details[open] > summary {
+    margin-bottom: 0.75rem;
+  }
+
+  .catalog-filter-details[open] > summary i {
+    transform: rotate(180deg);
+  }
+
+  .catalog-filter-details > summary:focus-visible {
+    outline: 2px solid var(--border-focus);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
+
+  .catalog-purity-note {
+    display: none;
+  }
+
+  .catalog-price-filter {
+    margin-bottom: 0 !important;
+  }
+
+  #product-search-input,
+  #catalog-category-select,
+  #sort-products-select {
+    font-size: 16px;
+  }
+
+  #price-range-slider {
+    min-height: 44px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .catalog-category-pills {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem !important;
+  }
+
+  .catalog-category-pills .btn {
+    width: 100%;
+    min-width: 0;
+    min-height: 46px;
+    padding: 0.6rem 0.45rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.8rem;
+    line-height: 1.35;
+    white-space: normal;
+  }
+
+  .catalog-category-pills .btn-outline-light {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .catalog-section {
+    padding-top: 1.5rem;
+  }
+
+  .catalog-toolbar {
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+  }
+
+  .catalog-sort {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.4rem !important;
+    width: 100%;
+  }
+
+  .catalog-sort .form-select {
+    width: 100%;
+    min-height: 48px;
+  }
+
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 54" width="240" height="54" fill="none">
+  <!-- Symbol: Stylized Almond & Pistachio Leaf Motif -->
+  <g transform="translate(4, 3)">
+    <rect width="48" height="48" rx="14" fill="#183329"/>
+    <!-- Almond silhouette in gold -->
+    <path d="M24 10 C16 18, 14 28, 24 38 C34 28, 32 18, 24 10 Z" fill="#C29B48"/>
+    <!-- Organic Leaf vein -->
+    <path d="M24 14 Q25 24 24 35" stroke="#183329" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Pistachio Accent Dot -->
+    <circle cx="24" cy="24" r="2.5" fill="#5E8C6A"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="64" y="32" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700" fill="#12241D" letter-spacing="1.5">NATUVA</text>
+  <text x="65" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="600" fill="#C29B48" letter-spacing="3.2">GOURMET DRY FRUITS</text>
+</svg>
