@@ -1,0 +1,47 @@
+/* Keep the recurring plan content on shared vertical guide lines. */
+.subscription-plan-badge-slot {
+  display: flex;
+  height: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.subscription-plan-title {
+  height: 2.5em;
+}
+
+.subscription-plan-description {
+  height: 3rem;
+}
+
+.subscription-plan-price {
+  display: flex;
+  height: 4.5rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.promise-card {
+  height: 100%;
+}
+
+.promise-card-title {
+  display: flex;
+  min-height: 2.5em;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+@media (max-width: 991.98px) {
+  .promise-card-title {
+    min-height: 3.6em;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .promise-card-title {
+    min-height: 4.8em;
+    font-size: 0.9rem;
+  }
+}

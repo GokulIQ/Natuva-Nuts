@@ -16,6 +16,10 @@
     const forms = document.querySelectorAll('.needs-validation');
 
     forms.forEach(form => {
+      form.querySelectorAll('input[type="date"][data-validate="not-past-date"]').forEach(input => {
+        input.min = getLocalDateValue();
+      });
+
       form.addEventListener('submit', function (event) {
         event.preventDefault();
         event.stopPropagation();
@@ -39,7 +43,13 @@
       // Clear invalid state on input
       form.querySelectorAll('input, select, textarea').forEach(input => {
         input.addEventListener('input', function () {
-          if (this.checkValidity()) {
+          if (this.matches('[data-validate="person-name"]') && !isValidPersonName(this.value)) {
+            this.classList.add('is-invalid');
+            this.classList.remove('is-valid');
+          } else if (this.matches('[data-validate="not-past-date"]') && isPastDate(this.value)) {
+            this.classList.add('is-invalid');
+            this.classList.remove('is-valid');
+          } else if (this.checkValidity()) {
             this.classList.remove('is-invalid');
             this.classList.add('is-valid');
           }
@@ -50,6 +60,23 @@
 
   function validateCustomForm(form) {
     let isValid = true;
+
+    form.querySelectorAll('[data-validate="person-name"]').forEach(input => {
+      if (!isValidPersonName(input.value)) {
+        input.classList.add('is-invalid');
+        input.classList.remove('is-valid');
+        isValid = false;
+      }
+    });
+
+    form.querySelectorAll('[data-validate="not-past-date"]').forEach(input => {
+      input.min = getLocalDateValue();
+      if (isPastDate(input.value)) {
+        input.classList.add('is-invalid');
+        input.classList.remove('is-valid');
+        isValid = false;
+      }
+    });
 
     // 1. Check native HTML5 validity
     if (!form.checkValidity()) {
@@ -102,6 +129,23 @@
     });
 
     return isValid;
+  }
+
+  function isValidPersonName(value) {
+    const name = value.trim();
+    return name.length >= 2 && /^[\p{L}][\p{L}\p{M}\s.'’\-]*$/u.test(name);
+  }
+
+  function getLocalDateValue() {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  }
+
+  function isPastDate(value) {
+    return Boolean(value) && value < getLocalDateValue();
   }
 
   function simulateFormSubmission(form) {

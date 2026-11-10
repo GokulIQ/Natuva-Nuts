@@ -31,6 +31,14 @@
   --color-gold-dark: #6E4D0C;
   --color-gold-rgb: 142, 101, 22;
 
+  /* Luxury Gold Button Tokens - Radiant harvest gold with WCAG AAA dark text */
+  --color-gold-btn-bg: #E5C37A;
+  --color-gold-btn-text: #0D251A;
+  --color-gold-btn-border: #C8A251;
+  --color-gold-btn-hover-bg: #F0D495;
+  --color-gold-btn-hover-text: #05100B;
+  --color-gold-btn-hover-border: #DFB15B;
+
   /* Surfaces & Backgrounds - Light Theme */
   --bg-body: #FAF7F2;
   --bg-surface: #FFFFFF;
@@ -381,6 +389,30 @@ ul, ol {
   border-color: rgba(229, 195, 122, 0.5);
 }
 
+/* CTA Banners & Dark Hero Sections - High-Visibility Action Buttons across the site */
+.bg-brand-primary .btn-gold,
+.bg-brand-dark .btn-gold,
+.page-hero .btn-gold {
+  background-color: #E5C37A !important;
+  color: #0B2016 !important;
+  border-color: #E5C37A !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(229, 195, 122, 0.45) !important;
+  font-weight: 700 !important;
+}
+
+.bg-brand-primary .btn-gold:hover,
+.bg-brand-primary .btn-gold:focus-visible,
+.bg-brand-dark .btn-gold:hover,
+.bg-brand-dark .btn-gold:focus-visible,
+.page-hero .btn-gold:hover,
+.page-hero .btn-gold:focus-visible {
+  background-color: #F3DC9E !important;
+  color: #05120C !important;
+  border-color: #F3DC9E !important;
+  box-shadow: 0 8px 24px rgba(229, 195, 122, 0.5), 0 0 0 2px rgba(243, 220, 158, 0.6) !important;
+  transform: translateY(-2px) !important;
+}
+
 /* High Contrast Subtle Badges */
 .badge.bg-success-subtle {
   background-color: #E3F3E8 !important;
@@ -651,19 +683,27 @@ ul, ol {
 
 /* Luxury Gold Button */
 .btn-gold {
-  background-color: var(--color-gold);
-  color: #10251A;
-  border-color: var(--color-gold);
-  box-shadow: 0 4px 15px rgba(142, 101, 22, 0.25);
+  background-color: var(--color-gold-btn-bg, #E5C37A);
+  color: var(--color-gold-btn-text, #0D251A);
+  border-color: var(--color-gold-btn-border, #C8A251);
+  box-shadow: 0 4px 16px rgba(142, 101, 22, 0.22);
   font-weight: 700;
+  transition: all 0.25s ease;
 }
 
-.btn-gold:hover {
-  background-color: #C29B48;
-  color: #0A1612;
-  border-color: #C29B48;
+.btn-gold:hover,
+.btn-gold:focus-visible {
+  background-color: var(--color-gold-btn-hover-bg, #F0D495);
+  color: var(--color-gold-btn-hover-text, #05100B);
+  border-color: var(--color-gold-btn-hover-border, #DFB15B);
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(142, 101, 22, 0.35);
+}
+
+.btn-gold:active {
+  background-color: #D8B15D;
+  color: #05100B;
+  transform: translateY(0);
 }
 
 [data-bs-theme="dark"] .btn-gold,
@@ -675,7 +715,9 @@ ul, ol {
 }
 
 [data-bs-theme="dark"] .btn-gold:hover,
-[data-theme="dark"] .btn-gold:hover {
+[data-theme="dark"] .btn-gold:hover,
+[data-bs-theme="dark"] .btn-gold:focus-visible,
+[data-theme="dark"] .btn-gold:focus-visible {
   background-color: #F0D495;
   color: #0A1612;
   border-color: #F0D495;

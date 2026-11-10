@@ -43,6 +43,42 @@
   }
 }
 
+/* Keep card content aligned at the 1024px three-column breakpoint. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .product-card-title {
+    min-height: 4.05em;
+  }
+
+  .gift-card-title {
+    min-height: 2.7em;
+  }
+
+  .product-card-footer {
+    gap: 0.4rem;
+  }
+
+  .product-card-footer > .btn {
+    padding: 0.4rem 0.55rem;
+    font-size: 0.8rem;
+  }
+
+  .story-card-title {
+    min-height: 4.05em;
+  }
+
+  .bulk-format-title {
+    min-height: 2.7em;
+  }
+
+  .testimonial-author {
+    align-items: flex-start;
+  }
+
+  .author-name {
+    white-space: nowrap;
+  }
+}
+
 /* --------------------------------------------------------------------------
    Tablets & Medium Screens (768px to 991px)
    -------------------------------------------------------------------------- */

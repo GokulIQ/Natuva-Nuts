@@ -229,10 +229,10 @@
 
         <div class="row g-4">
           <div class="col-12 col-md-4">
-            <div class="p-4 bg-surface-card rounded-4 border-theme h-100 shadow-xs">
+            <div class="bulk-format-card p-4 bg-surface-card rounded-4 border-theme h-100 shadow-xs d-flex flex-column">
               <div class="mb-3 text-gold fs-3"><i class="bi bi-bag"></i></div>
-              <h5 class="font-serif fw-bold mb-2">10kg & 25kg Nitrogen Sacks</h5>
-              <p class="small text-muted mb-3">
+              <h5 class="bulk-format-title font-serif fw-bold mb-2">10kg & 25kg Nitrogen Sacks</h5>
+              <p class="small text-muted mb-3 flex-grow-1">
                 Multi-layer foil barrier sacks flushed with food-grade nitrogen and heat-welded. Designed for bakeries, food service, and bulk repackaging.
               </p>
               <ul class="list-unstyled small text-muted mb-0">
@@ -244,10 +244,10 @@
           </div>
 
           <div class="col-12 col-md-4">
-            <div class="p-4 bg-surface-card rounded-4 border-theme h-100 shadow-xs">
+            <div class="bulk-format-card p-4 bg-surface-card rounded-4 border-theme h-100 shadow-xs d-flex flex-column">
               <div class="mb-3 text-pistachio fs-3"><i class="bi bi-box-seam"></i></div>
-              <h5 class="font-serif fw-bold mb-2">Retail-Ready Stand-Up Pouches</h5>
-              <p class="small text-muted mb-3">
+              <h5 class="bulk-format-title font-serif fw-bold mb-2">Retail-Ready Stand-Up Pouches</h5>
+              <p class="small text-muted mb-3 flex-grow-1">
                 Pre-packed in 250g, 500g, or 1kg matte forest-green foil pouches with zip-lock resealing and your custom private label branding.
               </p>
               <ul class="list-unstyled small text-muted mb-0">
@@ -259,10 +259,10 @@
           </div>
 
           <div class="col-12 col-md-4">
-            <div class="p-4 bg-surface-card rounded-4 border-theme h-100 shadow-xs">
+            <div class="bulk-format-card p-4 bg-surface-card rounded-4 border-theme h-100 shadow-xs d-flex flex-column">
               <div class="mb-3 text-almond fs-3"><i class="bi bi-gift"></i></div>
-              <h5 class="font-serif fw-bold mb-2">Corporate Gifting Crates</h5>
-              <p class="small text-muted mb-3">
+              <h5 class="bulk-format-title font-serif fw-bold mb-2">Corporate Gifting Crates</h5>
+              <p class="small text-muted mb-3 flex-grow-1">
                 Turnkey gift hampers packed in laser-engraved cedarwood crates or brass tin trios, tailored for client appreciation and investor summits.
               </p>
               <ul class="list-unstyled small text-muted mb-0">
@@ -449,8 +449,8 @@
                   <!-- Contact Name -->
                   <div class="col-md-6">
                     <label class="form-label">Full Name *</label>
-                    <input type="text" class="form-control" placeholder="e.g. Eleanor Vance" required minlength="2">
-                    <div class="invalid-feedback">Please enter your contact name.</div>
+                    <input type="text" class="form-control" data-validate="person-name" placeholder="e.g. Eleanor Vance" required minlength="2" autocomplete="name">
+                    <div class="invalid-feedback">Please enter a valid name using letters only.</div>
                   </div>
 
                   <!-- Company Name -->
@@ -507,7 +507,8 @@
                   <!-- Target Delivery Date -->
                   <div class="col-md-6">
                     <label class="form-label">Target Delivery Date</label>
-                    <input type="date" class="form-control">
+                    <input type="date" class="form-control" data-validate="not-past-date">
+                    <div class="invalid-feedback">Please choose today or a future date.</div>
                   </div>
 
                   <!-- Message & Custom Notes -->

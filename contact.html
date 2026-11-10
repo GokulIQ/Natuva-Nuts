@@ -233,8 +233,8 @@
                 <div class="row g-3">
                   <div class="col-md-6">
                     <label class="form-label">Your Name *</label>
-                    <input type="text" class="form-control" placeholder="e.g. Julian Thorne" required minlength="2">
-                    <div class="invalid-feedback">Please enter your full name.</div>
+                    <input type="text" class="form-control" data-validate="person-name" placeholder="e.g. Julian Thorne" required minlength="2" autocomplete="name">
+                    <div class="invalid-feedback">Please enter a valid name using letters only.</div>
                   </div>
                   <div class="col-md-6">
                     <label class="form-label">Email Address *</label>
